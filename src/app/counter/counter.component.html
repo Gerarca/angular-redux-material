@@ -1,0 +1,36 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Counter</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p class="counter-value">
+        {{count$ | async}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <div class="example-button-row">
+            <button 
+                (click)="increment()" 
+                mat-raised-button  
+                color="primary"
+                class="button">
+                Increment                
+            </button>
+            <button 
+                (click)="decrement()" 
+                mat-raised-button 
+                color="accent"
+                class="button">
+                    Decrement
+            </button>
+            <button 
+                (click)="reset()" 
+                mat-raised-button 
+                color="warn"
+                class="button">
+                    Reset
+            </button>
+        </div>
+    </mat-card-actions>
+</mat-card>
+

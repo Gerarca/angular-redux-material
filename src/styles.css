@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('./assets/background.png');
+}
+
+.example-card {
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+}
+
+mat-card-header, mat-card-title, mat-card-content{
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
+
+.example-button-row { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin: 0 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size:large;
+}
+ 
+.counter-value{
+    margin-top: 2rem;
+    font-size:xx-large;
+    color: blue;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+}
