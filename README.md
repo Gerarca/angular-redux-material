@@ -1,11 +1,11 @@
-![alt text](http://url/to/img.png)
+![first](https://github.com/Gerarca/angular-redux-material/blob/main/docs/angular-redux.png?raw=true)
 
 # Redux
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
 This project(counter) is a simple example how we can use [Redux](https://ngrx.io/) on Angular.
-![alt text](http://url/to/img.png)
+![capture](https://github.com/Gerarca/angular-redux-material/blob/main/docs/capture.png?raw=true)
 
 ## Angular Material
 
@@ -22,7 +22,7 @@ ng g m material
 
 this command will generate one module in your project
 
-![alt text](http://url/to/img.png)
+![material](https://github.com/Gerarca/angular-redux-material/blob/main/docs/material.module.png?raw=true)
 
 inside you can configure the commponet [Angular Material](https://material.angular.io/components/categories)
 
